@@ -33,6 +33,7 @@ const SearchBar = () => {
           value={searchInput}
           onChange={handleChange}
           placeholder="Type to search..."
+          className="search-input"
         />
         <div className="search-icon">
           <img src={SearchIcon} width={25} alt="Search Icon" />
@@ -54,3 +55,4 @@ const SearchBar = () => {
 };
 
 export default SearchBar;
+
